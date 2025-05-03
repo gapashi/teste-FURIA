@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.navbar {
+    background-color: #F2B33D;
+}
+
+#furia-logo {
+    max-width: 40px;
+    max-width: 40px;
+}
+
+.navbar .text {
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.dropdown-toggle::after {
+    display: none !important;
+}
+
+.symbol {
+    font-size: 30px;
+    margin-left: 300px;
+}
+
+.list {
+    background-color: #D9D9D9;
+    margin-left: 300px;
+}
+
+.title-feed {
+    font-size: 50px;
+    margin-left: 300px;
+    color: #8C8C8C;
+}
+
+.feed-bg {
+    background-color: #404040;
+    min-height: 500px;
+    padding: 2rem;
+}
+
+.content-bg {
+    background-color: #F2F2F2;
+}
+
+#profile-icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+
+.card-header-custom {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.card-title {
+    margin-top: 17px;
+}
+.card-subtitle {
+    font-size: 12px;
+    margin-top: 23px;
+}
+
+.btn-top-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.card .btn:hover {
+    color: #40404094;
+}

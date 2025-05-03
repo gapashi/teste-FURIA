@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Perfil</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+    rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/profile.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <!--NAVBAR-->
+    <nav class="navbar navbar-expand-md bg-gradient">
+        <div class="logo container-fluid">
+            <a href="#" class="navbar-brand">
+                <img src="../src/imgs/Furia_Esports_logo.png" class="img-fluid ms-5" alt="furia-logo" id="furia-logo">
+            </a>
+        </div>
+
+        <div class="text container-fluid">
+            <div class="d-flex text-align-center">
+                <h2 class="pe-5 fs-4">NOTÍCIAS</h2>
+                <h2 class="pe-5 fs-4">SOBRE O TIME</h2>
+            </div>
+        </div>
+
+        <div class="drop container-fluid">
+            <div class="collapse navbar-collapse" id="navbarScroll" style="--bs-scroll-height: 100px;">
+                <ul class="navbar-nav navbar-nav-scroll navbar-nav-scroll">
+                  <li class="nav-item dropdown">
+                    <a class="symbol nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        ≡
+                    </a>
+                    <ul class="list dropdown-menu">
+                      <li><a class="dropdown-item" href="../profile/profile.html">Meu Perfil</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="../chat-group/chat-group.html">Chat</a></li>
+                      <li><a class="dropdown-item" href="#">Fanarts</a></li>
+                      <li><a class="dropdown-item" href="#">Fanfics</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+        </div>
+    </nav>
+
+    <!--PROFILE-->
+    <main class="my-5">
+        <div class="ms-5">
+            <h1 class="title-profile">Meu perfil</h1>
+        </div>
+
+        <div class="container-fluid my-4 d-flex justify-content-center align-items-start">
+            <div class="row w-100 justify-content-center">
+              <div class="col-12 col-md-10 col-lg-10 profile-bg rounded p-4">
+                <div class="d-flex flex-row flex-wrap">
+                  
+                  <div class="d-flex flex-column align-items-center me-4">
+                    <img src="../src/imgs/profile-icon.png" alt="profile-picture" id="profile-picture"
+                         class="img-fluid mb-2 bg-white" style="height: 200px; width: 200px;">
+                    <button class="btn btn-dark">Trocar foto de perfil</button>
+                    <h5 class="social-title mt-5">Redes sociais</h5>
+                    <p class="bg-white px-4 px-1 my-2 rounded">Instagram</p>
+                    <p class="bg-white px-4 px-1 my-2 rounded">Twitch</p>
+                    <p class="bg-white px-4 px-1 my-2 rounded">Twitter</p>
+                    <p class="bg-white px-4 px-1 my-2 rounded">Discord</p>
+                  </div>
+          
+                  <div class="flex-grow-1 me-4" style="max-width: 300px;">
+                    <div class="mb-3">
+                      <h6 style="color: white;">Nome de usuário</h6>
+                      <p class="bg-white rounded p-2" style="color: black;">usuário123</p>
+                    </div>
+          
+                    <div class="mb-3">
+                      <h6 style="color: white;">E-mail cadastrado</h6>
+                      <p class="bg-white rounded p-2" style="color: black;">usuario123@furia.com.br</p>
+                    </div>
+          
+                    <div class="mb-3">
+                      <h6 style="color: white;">Senha atual</h6>
+                      <p class="bg-white rounded p-2 mb-5" style="color: black;">********</p>
+                    </div>
+          
+                    <form>
+                      <h3 class="mt-4" style="color: white;">Trocar senha</h3>
+          
+                      <div class="mb-3">
+                        <label for="new-password" class="form-label" style="color: white;">Nova senha</label>
+                        <input type="password" class="form-control" id="new-password" placeholder="*********">
+                      </div>
+          
+                      <div class="mb-3">
+                        <label for="confirm-password" class="form-label" style="color: white;">Confirmar nova senha</label>
+                        <input type="password" class="form-control" id="confirm-password" placeholder="********">
+                      </div>
+          
+                      <button type="submit" class="btn btn-dark me-2">Salvar</button>
+                      <button type="reset" class="btn btn-secondary">Limpar</button>
+                    </form>
+                  </div>
+          
+                  <div class="favorites-bg rounded p-3" style="min-width: 320px;">
+                    <h5 class="title-favorite">Favoritos</h5>
+                    <div class="card cotent-bg rounded mb-2" style="height: 10rem; width: 100%;">
+                      <div class="card-body position-relative">
+                        <div class="card-header-custom d-flex align-items-center">
+                          <img src="../src/imgs/profile-icon.png" alt="profile-icon" id="profile-icon" class="ms-2" style="width: 40px; height: 40px;">
+                          <div class="ms-2">
+                            <h6 class="card-title mb-0">FURIA CS fanart</h6>
+                            <p class="card-subtitle mt-0 mb-0">@usuario456</p>
+                          </div>
+                        </div>
+                        <a href="#" class="btn btn-sm fs-6 position-absolute bottom-0 end-0 m-2">Ver mais...</a>
+                      </div>
+                    </div>
+
+                    <div class="card cotent-bg rounded mb-2" style="height: 10rem; width: 100%;">
+                        <div class="card-body position-relative">
+                          <div class="card-header-custom d-flex align-items-center">
+                            <img src="../src/imgs/profile-icon.png" alt="profile-icon" id="profile-icon" class="ms-2" style="width: 40px; height: 40px;">
+                            <div class="ms-2">
+                              <h6 class="card-title mb-0">FURIA CS - A fanfic</h6>
+                              <p class="card-subtitle mt-0 mb-0">@usuario789</p>
+                            </div>
+                          </div>
+                          <a href="#" class="btn btn-sm fs-6 position-absolute bottom-0 end-0 m-2">Ver mais...</a>
+                        </div>
+                    </div>
+
+                  <div class="card cotent-bg rounded mb-2" style="height: 10rem; width: 100%;">
+                    <div class="card-body position-relative">
+                      <div class="card-header-custom d-flex align-items-center">
+                        <img src="../src/imgs/profile-icon.png" alt="profile-icon" id="profile-icon" class="ms-2" style="width: 40px; height: 40px;">
+                        <div class="ms-2">
+                          <h6 class="card-title mb-0">Fanart *_*</h6>
+                          <p class="card-subtitle mt-0 mb-0">@usuario456</p>
+                        </div>
+                      </div>
+                      <a href="#" class="btn btn-sm fs-6 position-absolute bottom-0 end-0 m-2">Ver mais...</a>
+                    </div>
+                </div>
+          
+                </div>
+              </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
