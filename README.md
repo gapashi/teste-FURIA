@@ -60,7 +60,7 @@ O design é totalmente responsivo, adaptando-se a **dispositivos móveis, tablet
 
 1. Clone este repositório:
 ```bash
-git clone https://github.com/seu-usuario/projeto-web-chat.git
+git clone https://github.com/gapashi/teste-FURIA
 
 2. Navegue até a pasta do projeto:
 cd projeto-web-chat
